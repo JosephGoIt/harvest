@@ -29,7 +29,7 @@
         <path fill="#ae1332" style="stroke: var(--color1, #ae1332)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M8 8l16 16"></path>
         <path fill="#ae1332" style="stroke: var(--color1, #ae1332)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M24 8l-16 16"></path>
     </symbol>
-    <linearGradient id="paint0_linear_5503_37" x1="177.84" y1="517.918" x2="177.157" y2="117.303" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0" x1="177.84" y1="517.918" x2="177.157" y2="117.303" gradientUnits="userSpaceOnUse">
         <stop stop-color="white"/>
         <stop offset="0.411317" stop-color="white" stop-opacity="0.441769"/>
         <stop offset="1" stop-color="white" stop-opacity="0"/>
