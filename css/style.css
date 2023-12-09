@@ -34,6 +34,7 @@ li{
 }
 .image {
     display: block;
+    overflow: hidden;
 }
 h1 {
     color: var(--WHITE);
@@ -122,7 +123,7 @@ h1 {
         position: absolute;
         top: 56px;
         left: 20px;
-        z-index: 5;
+        z-index: 6;
     }
     .strawberry-cont {
         height: 56px;
@@ -132,7 +133,7 @@ h1 {
         position: absolute;
         top: 56px;
         right: 20px;
-        z-index: 4;
+        z-index: 5;
     }    
     .banana-cont {
         height: 44px;
@@ -142,13 +143,29 @@ h1 {
         position: absolute;
         top: 116px;
         left: 20px;
+        z-index: 4;
     }
     .red-haired-woman-cont {
         height: 509px;
-        width: 355px;
+        width: 335px;
         position: absolute;
         top: 105px;
         left: 20px;
+        z-index: 1;
+        background-color: var(--RED);
+        border-radius: 45%;
+        overflow: hidden;
+    }
+    .vector-hero {
+        height: 520px;
+        width: 375px;
+        position: absolute;
+        top: 105px;
+        left:0;
+        z-index: 2;
+        stroke: var(--WHITE);
+        fill: var(--WHITE);
+        border-radius: 100px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:1279px){
