@@ -79,7 +79,7 @@ h1 {
 .nav-logo{
     display:inline-flex;
     align-items: center;
-    gap:8px;
+    gap: 8px;
 }
 
 .shopping-logo{
@@ -103,15 +103,13 @@ h1 {
     {
         display:none
     }
-    .nav-logo{
-        flex-basis: calc(100% / 2 - 30px);
-        justify-content: flex-start;
-        align-items: center;
-    }
     .header {
         height: 50px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .company-name {
+        font-size:14px ;
     }
     
 }
@@ -173,7 +171,6 @@ h1 {
     transition: background-color 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .mobile-link-list{
     display: flex;
     flex-direction: column;
@@ -184,19 +181,12 @@ h1 {
 
 .mobile-link-list a{
     color: var(--WHITE);
-    text-align: center;
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.56px;
 }
 
 .mobile-shopping-icon{
     fill: white;
 }
-
 .menu-icon {
     fill: var(--RED);
 }
