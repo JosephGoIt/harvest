@@ -140,7 +140,8 @@ h1 {
         height: 44px;
         width: 66px;
         filter: blur(2px);
-        transform: rotate(20deg);
+        rotate: y 180deg;
+        transform: rotate(-20deg);
         position: absolute;
         top: 116px;
         left: 20px;
