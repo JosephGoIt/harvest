@@ -76,8 +76,16 @@
                 src="./images/red-haired-woman1.png" class="image hero-image redhaired-woman-image" />
         </div>
         
-        <svg class="vector-hero">
-            <use href="./images/icons.svg#paint0"></use>
+        <svg class="vector-hero" width="200" height="600" xmlns="http://www.w3.org/2000/svg">
+            <!-- Define the linear gradient -->
+            <linearGradient id="paint0" x1="177.84" y1="517.918" x2="177.157" y2="117.303" gradientUnits="userSpaceOnUse">
+                <stop stop-color="white"/>
+                <stop offset="0.411317" stop-color="white" stop-opacity="0.441769"/>
+                <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+        
+            <!-- Use the linear gradient as a stroke for a line -->
+            <line x1="50" y1="100" x2="150" y2="500" stroke="url(#paint0)" stroke-width="5"/>
         </svg>
 
         <div class="btn-cont hero-btn-cont shop-now-cont">
